@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+
+body {
+  background: #070808;
+}
+
+h1 {
+  color: transparent;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("https://www.shutterstock.com/image-photo/lights-amidst-rainbokeh-effect-bangalore-600nw-2331389807.jpg");
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  width: 100%;
+  max-width: 470px;
+  color: #fff;
+  margin: 40px auto 0;
+  text-align: center;
+  background: linear-gradient(180deg, #089eda, #1a1c1c);
+  padding: 30px 35px;
+  border-radius: 35px;
+  box-shadow: 15px 15px 10px rgb(115, 179, 212);
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #3972ec;
+  caret-color: red;
+  padding: 10px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+  height: 60px;
+  font-size: 20px;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.search button {
+  width: 60px;
+  height: 60px;
+  outline: 0;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  background-color: #ebfffc;
+  border-radius: 50%;
+}
+
+.search button img {
+  width: 15px;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.weather {
+  display: none;
+}
